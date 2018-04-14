@@ -1,0 +1,18 @@
+{
+	"name" : "vendor/Lightweight",
+	"type" : "library",
+	"description" : "Utility classes for Lightweight app project",
+	"keywords" : [
+		"clone",
+		"copy",
+		"duplicate",
+		"object",
+		"object graph"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Ron White",
+			"email" : "ronwhite562@gmail.com"
+		}
+	]
+}
