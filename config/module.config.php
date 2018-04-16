@@ -13,7 +13,7 @@ return [
     // list all modules, plugins, libraries to load in this array
     'modules' => [
         'Notifications',
-        'Lightweight\\Application\\Mvc',
+        'Lightweight\\Application',
     ],
     
     // This should be an array of paths in which modules reside.
@@ -29,7 +29,7 @@ return [
     // modules are loaded. These effectively override configuration
     // provided by modules themselves. Paths may use GLOB_BRACE notation.
     'config_glob_paths' => [
-        realpath(__DIR__) . '/autoload/{{,*.}global,{,*.}local}.php',
+        realpath(__DIR__) . '/{{,*.}global,{,*.}local}.php',
     ],
     
     // Whether or not to enable a configuration cache.

@@ -7,6 +7,15 @@ namespace Composer\Autoload;
 class ComposerStaticInit5d3b84aefda6075f8cf971836e285e01
 {
     public static $prefixLengthsPsr4 = array (
+        'Z' => 
+        array (
+            'Zend\\Stdlib\\' => 12,
+            'Zend\\ServiceManager\\' => 20,
+        ),
+        'P' => 
+        array (
+            'Psr\\Container\\' => 14,
+        ),
         'N' => 
         array (
             'Notifications\\' => 14,
@@ -15,9 +24,25 @@ class ComposerStaticInit5d3b84aefda6075f8cf971836e285e01
         array (
             'Lightweight\\' => 12,
         ),
+        'I' => 
+        array (
+            'Interop\\Container\\' => 18,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Zend\\Stdlib\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-stdlib/src',
+        ),
+        'Zend\\ServiceManager\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-servicemanager/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
         'Notifications\\' => 
         array (
             0 => __DIR__ . '/../..' . '/module/Notficiations/src',
@@ -25,6 +50,10 @@ class ComposerStaticInit5d3b84aefda6075f8cf971836e285e01
         'Lightweight\\' => 
         array (
             0 => __DIR__ . '/..' . '/Lightweight/src',
+        ),
+        'Interop\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
         ),
     );
 
